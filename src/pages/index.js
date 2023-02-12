@@ -16,8 +16,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div>SOMETHING</div>
+      <main className="bg-gradient-to-b from-purple-500 to-pink-500  text-6xl min-h-screen flex flex-col justify-center items-center bg-black text-white">
+        <div className="font-mono">Joi</div>
+        <p className="text-2xl italic">coming soon</p>
       </main>
     </>
   );
